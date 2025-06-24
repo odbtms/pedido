@@ -18,6 +18,7 @@ public class PedidoServicio {
     }
     
     @Transactional
+    //cambiar estado pedido
     public pedido crearPedido(pedido pedido) {
         // Establecer valores por defecto
         pedido.setFechaCreacion(LocalDateTime.now());
